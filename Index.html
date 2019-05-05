@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta content="text/html"; charset="UTF-8" />
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+	<body>
+		    <div id="contenido">
+				  <header>
+				  <section id="registro">
+					<div>
+					  <h3>REGISTRO DE ESTUDIANTES</h3>
+					</div>
+					<ul>
+					  <li>
+						<p>Codigo del estudiante</p>
+						<input type="text" id="estcod"/>
+					  </li>
+					  <li>
+						<p>Nombre del estudiante</p>
+						<input type="text" id="estnom">
+					  </li>
+					  <li>
+						<p>Nota del estudiante</p>
+						<input type="text" id="estnot">
+					  </li>
+					</ul>
+				  <td><input id="btnRegistrar" name="btnRegistrar" type="button" value="Registrar Estudiante"/></td>
+				  </section>
+                  </header>
+
+                  <section id="tabla_sec">
+                  <h3>LISTADOS DE ESTUDIANTES</h3>
+ 				  <table id="tabla">
+						  <tr>
+							<th>CODIGOS</th>
+							<th>NOMBRES</th>
+							<th>NOTAS</th>
+						  </tr>
+ 				   </table><br>
+					   <td><input id="btn_promedio" name="btn_promedio" type="button" value="Nota Promedio"/></td>
+					   <td><input id="btn_mayor" name="btn_mayor" type="button" value="Nota Mayor"/></td>
+					   <td><input id="btn_menor" name="btn_menor" type="button" value="Nota Menor"/></td>
+				  </section>	 
+			</div>
+		<script type="text/javascript" src="js/script_notas.js"></script>
+	</body>
+
+
+</html>
